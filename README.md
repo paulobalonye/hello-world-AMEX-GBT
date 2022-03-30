@@ -1,5 +1,1 @@
-I just deployed a simple java app
-
-sample
-
-just checking out on dev branch 2
+This is just a simple Java Application specifically for AMEX GBT interview session.
