@@ -17,7 +17,7 @@ pipeline {
          stage('S3 artifact upload') {
             steps {
                 sh 'ls -lh'
-                sh 'aws s3 ls'
+                sh 'aws s3 cp $WORKSPACE/target s3://hello-world-amex-gbt --recursive --include "*"'
             }
 
         }
