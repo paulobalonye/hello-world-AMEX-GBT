@@ -17,7 +17,7 @@ pipeline {
          stage('S3 artifact upload') {
             steps {
                 sh 'ls -lh'
-                sh 'aws s3 cp /target/jb-hello-world-maven-0.2.0.jar s3://hello-world-amex-gbt/ --recursive'
+                sh 'aws s3 ls'
             }
 
         }
