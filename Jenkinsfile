@@ -9,6 +9,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'mvn test'
+                sh 'cd /target'
                 sh 'ls -lh'
             }
 
